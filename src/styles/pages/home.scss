@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  
+  .hero {
+    background: #BE3D2A;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    padding: 0.75rem 2rem;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: white;
+    color: #BE3D2A;
+  }
+  
+  .services {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    background: #BE3D2A;
+    color: white;
+    padding: 3rem 1rem;
+  }
+  
+  .service-card {
+    background: white;
+    color: grey;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .service-card h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .services {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 3rem 4rem;
+    }
+    .hero h2 {
+      font-size: 3.5rem;
+    }
+  }
+  
+ 

@@ -1,0 +1,10 @@
+// styles/base/typography.scss
+body {
+    font-family: $font-primary;
+    font-size: $font-size-base;
+  }
+  
+  h1, h2, h3 {
+    font-family: $heading-font;
+  }
+  

@@ -1,0 +1,67 @@
+.varietySection {
+  margin-top: 4rem;
+
+  .topBlock, .bottomBlock {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  .topBlock {
+    background: #fff;
+  }
+
+  .bottomBlock {
+    background: #356859;
+    color: #fff;
+  }
+
+  .left, .right {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+  }
+
+  .left span {
+    display: block;
+    font-size: 0.9rem;
+    color: #888;
+  }
+
+  .bottomBlock .left span {
+    color: #fff;
+    opacity: 0.8;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+  }
+
+  .primary {
+    background-color: #356859;
+    color: #fff;
+  }
+
+  .outline {
+    background-color: #fff;
+    color: #356859;
+    border: 2px solid #fff;
+  }
+}

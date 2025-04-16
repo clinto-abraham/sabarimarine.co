@@ -1,0 +1,80 @@
+.contactSection {
+    background-image: url('/port.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 4rem 1rem;
+    
+  
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      font-size: 1.125rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+  
+  .contactForm {
+    background-color: white;
+    max-width: 600px;
+    margin: auto auto;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    label {
+      display: block;
+      margin-bottom: 1.25rem;
+      text-align: left;
+  
+      input,
+      textarea {
+        width: 100%;
+        padding: 0.75rem;
+        margin-top: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        margin-right: 2rem;
+      }
+  
+      textarea {
+        min-height: 120px;
+      }
+    }
+  
+    button {
+      background-color: #d0693b;
+      color: white;
+      border: none;
+      padding: 0.75rem 2rem;
+      border-radius: 9999px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #b85d33;
+      }
+    }
+  
+    .error {
+      color: red;
+      font-size: 0.875rem;
+      margin-top: 0.25rem;
+    }
+  
+    .success {
+      color: green;
+      font-size: 0.875rem;
+      margin-top: 0.5rem;
+    }
+  
+    @media (max-width: 768px) {
+      padding: 1.5rem;
+    }
+  }
+  

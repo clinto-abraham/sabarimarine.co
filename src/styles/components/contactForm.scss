@@ -1,0 +1,12 @@
+/* styles/components/contactForm.scss */
+.skeleton {
+    background: linear-gradient(-90deg, #eeeeee 0%, #dddddd 50%, #eeeeee 100%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+    border-radius: 8px;
+  }
+  @keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+  

@@ -1,0 +1,71 @@
+.testimonials {
+    background-color: #f5f5f5;
+    padding: 4rem 2rem;
+    text-align: center;
+  
+    .header {
+      max-width: 700px;
+      margin: 0 auto 3rem;
+  
+      h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        color: #444;
+        font-size: 1rem;
+      }
+    }
+  
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+  
+    .card {
+      background-color: #ddd;
+      border-radius: 12px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 400px;
+      text-align: left;
+      position: relative;
+  
+      .quoteIcon {
+        font-size: 2rem;
+        color: #000;
+        margin-bottom: 1rem;
+      }
+  
+      .quote {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #222;
+      }
+  
+      .profile {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding-top: 1rem;
+  
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-right: 0.8rem;
+        }
+  
+        .name {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  

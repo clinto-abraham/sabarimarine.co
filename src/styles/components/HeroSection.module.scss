@@ -1,0 +1,36 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/images/hero-bg.jpg') center/cover no-repeat;
+    height: 90vh;
+    text-align: center;
+  
+    .content {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+      h1 {
+        font-size: 3rem;
+        color: #2e2e2e;
+      }
+  
+      p {
+        font-size: 1.2rem;
+        color: #555;
+      }
+  
+      button {
+        padding: 0.75rem 1.5rem;
+        margin-top: 1rem;
+        background-color: #356859;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+  

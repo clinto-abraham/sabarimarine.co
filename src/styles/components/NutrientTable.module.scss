@@ -1,0 +1,33 @@
+.tableSection {
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: white;
+    text-align: center;
+  
+    h2 {
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+    }
+  
+    table {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      border-collapse: collapse;
+  
+      th,
+      td {
+        border: 1px solid #333;
+        padding: 1rem;
+      }
+  
+      th {
+        background-color: #222;
+      }
+  
+      td {
+        font-size: 1rem;
+      }
+    }
+  }
+  

@@ -1,0 +1,61 @@
+.testimonialSection {
+    background-color: #102E50;
+    padding: 4rem 1rem;
+    text-align: center;
+    color: #ffffff;
+  
+    @media (min-width: 768px) {
+      padding: 5rem 2rem;
+    }
+  
+    @media (min-width: 1024px) {
+      padding: 6rem 4rem;
+    }
+  }
+  
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  .stars {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .message {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  
+    @media (min-width: 768px) {
+      font-size: 1.25rem;
+    }
+  }
+  
+  .author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 9999px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  

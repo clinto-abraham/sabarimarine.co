@@ -1,0 +1,92 @@
+.pricingSection {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .planGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    flex: 1;
+    min-width: 280px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .imagePlaceholder {
+    width: 100%;
+    height: 100px;
+    background: #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+//   h4 {
+//     font-size: 1.25rem;
+//     margin: 0.5rem 0;
+//     color: #1c1c1e;
+//   }
+  
+  .from,
+  .perMonth {
+    color: #888;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.3rem 0;
+  }
+  
+  .description {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 1rem 0;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  
+    li {
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  .cta {
+    padding: 0.6rem 1.5rem;
+    background-color: #0d1117;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  
+    &:hover {
+      background-color: #1f2937;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .planGrid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
